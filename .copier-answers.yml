@@ -1,0 +1,21 @@
+# Changes here will be overwritten by Copier
+_commit: b7f7c20
+_src_path: https://codeberg.org/Fresh2dev/copier-f2dv-project.git
+author_email: hello@Fresh2.dev
+author_name: Donald Mellenbruch
+ci_domain_name: lokalhost.net
+docs_url: https://www.Fresh2.dev/code/r/vym.vim/i
+funding_url: https://www.Fresh2.dev/funding
+home_page: https://www.Fresh2.dev
+is_minimal: false
+is_python: false
+license_type: GPLv3
+package_name: vym.vim
+project_description: vym in vim
+project_name: vym.vim
+python_version: '3.7'
+repo_mirror: https://www.Fresh2.dev/code/r/vym.vim
+repo_name: fresh2dev/vym.vim
+repo_owner: fresh2dev
+repo_url: https://www.github.com/fresh2dev/vym.vim
+

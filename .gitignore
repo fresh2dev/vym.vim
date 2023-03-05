@@ -1,2 +1,4 @@
 broot.toml
 .DS_Store
+
+secrets/

@@ -1,0 +1,38 @@
+kind: template
+load: hostbutter.jsonnet
+data:
+  domains: >-
+    ["lokalhost.net"]
+  domainTriggers: >-
+    {
+      "lokalhost.net": {}
+    }
+  domainClusterMap: >-
+    {}
+  publishRegistries: >-
+    {}
+  secrets: >-
+    []
+  secretFiles: >-
+    {
+      "ENV_FILE": ".env"
+    }
+  volumes: >-
+    []
+  beforeSteps: >-
+    [
+      {
+        "name": "build-docs",
+        "image": "registry.lokalhost.net/fresh2dev/myke:503df81",
+        "commands": [
+          "myke py-mkdocs"
+        ],
+        "when": {}
+      }
+    ]
+  afterSteps: >-
+    []
+  finalSteps: >-
+    []
+  extraObjects: >-
+    []
